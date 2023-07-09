@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ExpenseTrackerApp",
+    "name": "Expense Tracker App",
     "slug": "ExpenseTrackerApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber:": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anna555.ExpenseTrackerApp"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anna555.ExpenseTrackerApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b457e040-de7c-44d3-8ab4-a56afd9194ad"
+      }
     }
   }
 }
